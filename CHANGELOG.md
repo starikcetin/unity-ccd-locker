@@ -1,5 +1,12 @@
 # Unity CCD Locker Changelog
 
+## [1.0.2](https://github.com/starikcetin/unity-ccd-locker/compare/v1.0.1...v1.0.2) (2023-06-24)
+
+
+### Bug Fixes
+
+* display correct script name in usage ([fbe6279](https://github.com/starikcetin/unity-ccd-locker/commit/fbe62794c34beab9ce85762697c7f3d19980b811))
+
 ## [1.0.1](https://github.com/starikcetin/unity-ccd-locker/compare/v1.0.0...v1.0.1) (2023-06-24)
 
 

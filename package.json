@@ -1,6 +1,6 @@
 {
   "name": "unity-ccd-locker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A git-based locking mechanism for Unity CCD bucket operations.",
   "repository": {
     "type": "git",
