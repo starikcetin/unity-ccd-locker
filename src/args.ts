@@ -107,6 +107,7 @@ function parse(): Args {
   let args: Args | null = null;
 
   yargs(process.argv.slice(2))
+    .scriptName(appInfo.name)
     .help('help')
     .alias('help', 'h')
     .alias('help', '?')
@@ -195,7 +196,7 @@ function parse(): Args {
     .demandCommand(1, 1)
     .recommendCommands()
     .epilogue(epilogueText)
-    .wrap(Math.min(90, yargs.terminalWidth()))
+    .wrap(Math.min(100, yargs.terminalWidth()))
     .parse();
 
   if (!hasValue<Args>(args)) {
