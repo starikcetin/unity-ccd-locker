@@ -1,5 +1,12 @@
 # Unity CCD Locker Changelog
 
+## [1.0.3](https://github.com/starikcetin/unity-ccd-locker/compare/v1.0.2...v1.0.3) (2023-06-25)
+
+
+### Documentation
+
+* make executable binaries ([3038f14](https://github.com/starikcetin/unity-ccd-locker/commit/3038f145e02d132bfa1369ad1041c1cb7e02f173))
+
 ## [1.0.2](https://github.com/starikcetin/unity-ccd-locker/compare/v1.0.1...v1.0.2) (2023-06-24)
 
 
