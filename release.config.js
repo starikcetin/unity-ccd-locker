@@ -37,7 +37,13 @@ module.exports = {
             }
         ],
         "@semantic-release/npm",
-        "@semantic-release/github",
+        [
+            // make sure github comes after npm, because we are building the binaries in the prepublishOnly script
+            "@semantic-release/github",
+            {
+                "assets": "bin/*"
+            }
+        ],
         "@semantic-release/git",
     ],
 }

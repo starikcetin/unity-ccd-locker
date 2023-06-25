@@ -4,14 +4,24 @@ A git-based locking mechanism for Unity CCD bucket operations. Can be used to pr
 
 ## Requirements
 
-- Node.js version `8.0.0` or higher.
+- Node.js version `8.0.0` or higher _(not needed for executable binaries)_.
 - You have Git installed and it is in your PATH.
 
 ## Installation
 
+### Install via npm
+
 ```sh
 npm i -g unity-ccd-locker
 ```
+
+You can use `yarn` etc. as well.
+
+### Download an executable binary
+
+Executable binaries are available for Windows, Mac, and Linux. You don't anything except git installed on your system to use them.
+
+You can download them from the assets section of a [Github release](https://github.com/starikcetin/unity-ccd-locker/releases).
 
 ## Usage
 

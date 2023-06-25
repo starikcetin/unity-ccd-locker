@@ -1,6 +1,7 @@
-node_modules
-dist
+node_modules/
+src/generated/
+dist/
+bin/
 yarn-error.log
 .vscode
 *.tsbuildinfo
-src/generated/
